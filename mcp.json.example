@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "cursor-agent-orchestrator": {
+      "command": "node",
+      "args": [
+        "/path/to/orchestrate-cursor-agent-mcp/src/orchestrator-mcp/server.js"
+      ],
+      "env": {
+        "BRIDGE_SESSION_DIR": "/tmp/cursor-bridge-session"
+      }
+    }
+  }
+}

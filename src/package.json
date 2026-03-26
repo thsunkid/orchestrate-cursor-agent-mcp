@@ -1,0 +1,16 @@
+{
+  "name": "mcp-cursor-agent",
+  "version": "1.2.0",
+  "type": "module",
+  "private": true,
+  "description": "MCP wrapper server for cursor-agent CLI. Multi-tool: chat/edit/analyze/search/plan/raw + interactive sessions with bidirectional communication.",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "node ./test_client.mjs"
+  }
+}
