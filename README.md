@@ -23,7 +23,7 @@ Claude Code instance can delegate tasks to Cursor's model catalog (GPT-5, Gemini
 ### Install
 
 ```bash
-git clone https://github.com/thesunkid19/cursor-cli-agent-mcp.git
+git clone https://github.com/thsunkid/orchestrate-cursor-agent-mcp.git
 cd src
 npm install
 ```
